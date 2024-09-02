@@ -1,6 +1,10 @@
 {
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "jest"
+  },
   "dependencies": {
-    "inquirer": "^10.1.8",
+    "@inquirer/prompts": "^5.3.8",
     "typescript": "^5.5.4"
   },
   "devDependencies": {
