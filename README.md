@@ -4,6 +4,10 @@
 This CLI application calculates the term deposit balance based on user input. It takes the deposit amount, interest rate, investment tenure, and interest payment frequency.
 
 
+## Preview
+
+![Alt Text](https://i.postimg.cc/DywccMcv/preview.gif)
+
 ## Project Structure
 
 ```
@@ -33,7 +37,7 @@ term-deposit-calculator/
 1. **Clone the repository:**
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/jwswe/term-deposit-calculator.git
     cd term-deposit-calculator
     ```
 
@@ -78,19 +82,16 @@ npm test
 ```
 
 
-## Time taken
-
+## Exercise Time taken
 ~2 hours
 
 ## Assumptions
 The final amount will be rounded to the nearest whole number, as per the bank's website standards.
 
-
 ## Design decision
 Utilise an interactive CLI prompt to gather user inputs.This approach allows users to enter values directly after the command prompt, making the application straightforward to use in a terminal environment.
 
 Implement an investment term selector with separate prompts for years and months, This design provides users with the flexibility to specify investment terms with greater precision. By splitting the input into years and months, users can easily define terms that range from 3 months to 5 years.
-
 
 ## Improvements
 - Error Handling: Enhance error handling for edge cases and invalid inputs.
